@@ -31,17 +31,18 @@
     padding-bottom: 100px;
 }
 
-.navbar-default .navbar-brand {
+.navbar-default .navbar-brand,
+.navbar-default .navbar-nav > li > a, {
     color :#202020;
+    &:hover {
+        color :#202020;
+        opacity : 0.75;
+    }
 }
-.navbar-default .navbar-brand:hover {
-    color :#202020;
-    opacity : 0.75;
-}
-.navbar-default .navbar-nav > li > a {
-    color :#202020;
-}
-.navbar-default .navbar-nav > li > a:hover {
-    color :#202020;
-    opacity : 0.75;
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #202020;
+    &hover {
+        background-color : #ddd;
+    }
 }
