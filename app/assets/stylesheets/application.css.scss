@@ -15,6 +15,10 @@
  */
 @import 'bootstrap-sprockets' ;
 @import 'bootstrap';
+@import "font-awesome-sprockets";
+@import "font-awesome";
+
+
 .navbar, .home-content{
     font-family:'Lato','sans-serif' ;
     background: #50C9C3;  /* fallback for old browsers */
